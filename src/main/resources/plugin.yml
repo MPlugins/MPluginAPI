@@ -1,0 +1,12 @@
+name: MPluginAPI
+version: ${project.version}
+main: de.marvinleiers.mpluginapi.mpluginapi.MPluginMain
+api-version: 1.13
+authors: [ Marvin_Leiers ]
+
+softdepend:
+  - PlaceholderAPI
+
+commands:
+  info:
+    description: See plugin information
