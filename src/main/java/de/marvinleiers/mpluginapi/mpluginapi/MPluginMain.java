@@ -18,6 +18,7 @@ public class MPluginMain extends JavaPlugin
      * @author Marvin Leiers
      * @see <a href="https://www.leiers.dev">leiers.dev</a>
      */
+
     private static final HashMap<String, MPlugin> plugins = new HashMap<>();
     private static MPluginMain instance;
     private static Updater updater;
