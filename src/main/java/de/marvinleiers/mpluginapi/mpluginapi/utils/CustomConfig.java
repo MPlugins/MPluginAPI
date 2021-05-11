@@ -1,6 +1,7 @@
 package de.marvinleiers.mpluginapi.mpluginapi.utils;
 
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.FileConfiguration;
@@ -102,7 +103,7 @@ public class CustomConfig
 
     public String getString(String path)
     {
-        return config.getString(path);
+        return ChatColor.translateAlternateColorCodes('&', config.getString(path));
     }
 
     public double getDouble(String path)
