@@ -1,1 +1,1 @@
-# MPluginAPI by [Marvin Leiers](https://leiers.dev)
+# MPluginAPI by [MPlugins](https://mplugins.org)
